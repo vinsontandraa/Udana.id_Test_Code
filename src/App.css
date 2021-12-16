@@ -1,0 +1,443 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
+.App {
+  text-align: center;
+  font-size: 10px;
+  font-family: "Karla", sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.button-nav {
+  font-size: 10px !important;
+  color: white !important;
+}
+
+.nav-link {
+  color: white !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  text-align: center !important;
+}
+
+a:link {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.sub-info {
+  max-width: 350px;
+  font-size: 14px;
+  text-align: left;
+  color: white;
+  /* line-height: 1.4; */
+  font-weight: 300;
+}
+
+.navbar {
+  z-index: 100;
+  color: black;
+  width: 100%;
+  padding-left: 17%;
+  padding-top: 2% !important;
+  position: absolute !important;
+  max-width: 1000px;
+}
+
+.info {
+  max-width: 350px;
+  color: #fbcd06;
+  font-weight: bolder;
+  font-size: 38px;
+  text-align: left;
+}
+
+.sub-button {
+  color: white !important;
+  font-size: 13px !important;
+}
+
+.container {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.body {
+  z-index: 100;
+  position: absolute;
+}
+
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 13%;
+}
+
+.header-img {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+/* SUB MENU 2 */
+.sub-menu2 {
+  padding: 50px 250px 0 250px;
+  text-align: center;
+}
+
+/* CARD */
+.card-title {
+  padding-top: 10px !important;
+  font-size: 14px !important;
+}
+.card-text {
+  color: #fbcd06 !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+}
+
+.text-muted {
+  font-size: 12px !important;
+  color: black !important;
+}
+
+.sub-menu-yellow {
+  color: yellow;
+  font-size: 14px;
+  font-weight: 700;
+  width: 230px;
+  padding-left: 20px;
+  text-decoration: underline;
+}
+/* SUB MENU 1 */
+
+.menu-image {
+  max-width: 100%;
+}
+
+.sub-menu-1 {
+  padding: 50px 250px 0 250px;
+}
+
+.sub-menu-2 {
+  padding: 0 250px 0 250px;
+}
+
+.logo-nav {
+  max-width: 110px !important;
+}
+.sub-menu-info {
+  color: grey;
+  font-size: 14px;
+  font-weight: 300;
+  width: 230px;
+  padding-left: 20px;
+}
+.menu-info {
+  font-weight: 700;
+}
+.menu-small {
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+div.noPadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+div.noMargin {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.card {
+  width: 15rem;
+}
+
+@media (max-width: 575px) {
+  .navbar {
+    padding-top: 4% !important;
+  }
+  .nav-link {
+    color: white !important;
+    background-color: #555 !important;
+    padding-bottom: 25px !important;
+  }
+  .responsive-navbar-nav {
+    background-color: white !important;
+  }
+
+  .menu-image {
+    max-width: 100%;
+  }
+
+  .sub-menu-2 {
+    padding: 0 100px 0 100px;
+  }
+
+  .sub-menu-1 {
+    padding: 0 100px 0 100px;
+  }
+
+  .sub-menu2 {
+    padding: 0 50px 0 50px;
+    text-align: center;
+  }
+
+  .card {
+    width: 29rem;
+  }
+
+  .brand-card {
+    padding-left: 0% !important;
+    padding-bottom: 30px !important;
+  }
+
+  .help-menu {
+    padding: 10px 10px 10px 10px !important;
+    text-align: center;
+  }
+
+  .yellow-menu {
+    height: 350px !important;
+  }
+
+  .yellow-menu p {
+    padding-left: 50px !important;
+  }
+
+  .sub-menu-yellow {
+    font-size: 16px !important;
+    padding-top: 20px !important;
+  }
+
+  footer {
+    padding: 30px 100px !important;
+  }
+
+  .footer-info {
+    max-width: 50%;
+  }
+
+  .support-image-top {
+    width: 33% !important;
+  }
+
+  .support-image {
+    width: 50% !important;
+  }
+}
+
+@media (min-width: 575px) {
+}
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: white;
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+  padding: 30px 250px;
+}
+footer .content {
+  max-width: 1350px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  max-width: 120px;
+}
+
+.vertical-menu a {
+  font-size: 9px !important;
+  padding: 3px 0;
+  color: #282c34 !important;
+  text-decoration: none;
+  display: block;
+  text-decoration: none !important;
+}
+
+.footer-info {
+  font-size: 8px;
+  color: grey;
+  max-width: 100%;
+}
+footer .content p,
+a {
+  color: #fff;
+}
+footer .content .box {
+  width: 33%;
+  transition: all 0.4s ease;
+}
+footer .content .topic {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+}
+footer .content p {
+  text-align: justify;
+}
+footer .content .lower .topic {
+  margin: 24px 0 5px 0;
+}
+footer .content .lower i {
+  padding-right: 16px;
+}
+footer .content .middle {
+  padding-left: 80px;
+}
+footer .content .middle a {
+  line-height: 32px;
+}
+
+footer .bottom {
+  width: 100%;
+  text-align: right;
+  color: #d9d9d9;
+  padding: 0 40px 5px 0;
+}
+
+@media (max-width: 1100px) {
+  footer .content .middle {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 950px) {
+  footer .content .box {
+    width: 50%;
+  }
+  .content .right {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 560px) {
+  footer {
+    position: relative;
+  }
+  footer .content .box {
+    width: 100%;
+    margin-top: 30px;
+  }
+  footer .content .middle {
+    padding-left: 0;
+  }
+}
+
+/* YELLOW */
+.help-menu {
+  padding: 50px 250px 30px 250px;
+  text-align: center;
+}
+.yellow-menu {
+  background-color: #fbcd06;
+  border-radius: 15px;
+  height: 190px;
+  padding-bottom: 30px;
+  box-shadow: 4px 6px 31px 0 rgb(251 205 6 / 25%);
+  width: 100%;
+}
+
+.yellow-menu h3 {
+  font-weight: 700;
+  padding: 20px 40px;
+  color: white;
+  text-align: left;
+  font-size: 30px;
+}
+
+.yellow-menu h5 {
+  font-weight: 500;
+  padding: 0px 40px;
+  color: white;
+  text-align: left;
+  font-size: 10px;
+  width: 300px;
+}
+
+.yellow-menu p {
+  font-weight: 500;
+  color: white;
+  text-align: left;
+  font-size: 11px;
+  width: 250px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.support-image-top{
+  max-width: 100%;
+  width: 33%;
+  height: auto;
+}
+.support-image {
+  max-width: 100%;
+  width: 50%;
+  height: auto;
+}
+.footer-last {
+  padding-top: 50px;
+  color: grey;
+  font-size: 8px;
+  font-weight: 300;
+  width: 100%;
+}
+
+.footer-copyright {
+  padding-top: 10px;
+  color: grey;
+  font-size: 8px;
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+}
+
+.chat-image{
+  float: right;
+  position:fixed;
+}
